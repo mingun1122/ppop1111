@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>삼성전자 반도체 공식 사이트</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+  <link rel="website icon" type="png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAV1BMVEVHcEwAiv8Aiv8Aiv8Aiv8Aiv8Aiv8Aiv8Aiv8Aiv8Aiv8Aiv8Ahf8Agf9xtf+BvP9YqP+83P/////1/P/j8v8wmP+Zyf/T6f8Aiv8Aj/+x1P8Aiv8Aiv935Us3AAAAHXRSTlMAPk95gpJrGuX/tCr////////////////S///1FfuwPiAAAAEKSURBVHgBlZMHEoMwDATpIGKBK/3/7wxGI0ZMKptCuXW3kzukWV6UZVlUWZ28kjcgadNrXMILzUPkorSg+pgz2Wv9akcYCQEMQtf3vcbTKan/Z3FjD5w+jUsP0FsmsJCKFpSO0dA7a61Roo2UhWFPRsT+uAAx7UImBY+q894bFhrRR9XbaASMyIEWwIazETPLmbhMUyDDDvhBUEATwX0UAoNhtJEFX/rAYGcjUqg4GmkejvmagVjFPKCh1jEKICaqlhNlNV24iVaudrAnBuWmarmKjnMPzBaFFNgIi3fOjT3KLsgtqRRGFDApCQ94hbtIVC8RTwKTfS7/8WhN1L4gLduGsnVqqy35lyeB0yJGQOZ7lAAAAABJRU5ErkJggg=="> <!-- 탭 아이콘 변경 -->
+
+  <style>
+    * {
+      font-family: 나눔고딕;
+    }
+
+    .cs-bg-black {
+      background-color: black !important;
+    }
+
+    .toast {
+      margin: 0 auto;
+    }
+
+    .card {
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .box {
+      height: 350px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 230px;
+
+      color: black;
+    }
+
+    .img-fluid {
+      width: 1200px;
+      height: 260px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .img-fluid1 {
+      width: 600px;
+      height: 260px;
+      display: block;
+      margin-left: 350px;
+      padding-top: 14px;
+    }
+
+    .img-fluid2 {
+      width: 600px;
+      height: 260px;
+      display: block;
+      padding-top: 14px;
+      padding-left: 14px;
+    }
+
+    .img1 {
+      display: flex;
+    }
+
+    .card-img-top {
+      border-radius: 40px 40px 0px 0px;
+    }
+
+    .card {
+
+      border-radius: 40px 40px 0px 0px;
+    }
+
+    .navbar-brand {
+      padding-left: 250px;
+    }
+
+    .display-4 {
+      color: #fff;
+      padding: 0.7rem 0.7rem 0.7rem 2rem;
+      background-image: -webkit-linear-gradient(left, #7c4dff 0%, #a7ffeb 100%);
+      background-image: linear-gradient(to right, #7c4dff 0%, #a7ffeb 100%);
+      -webkit-transform: skew(-15deg);
+      transform: skew(-15deg);
+    }
+
+    .lead {
+      color: #b388ff;
+      width: 100px;
+      border-bottom: 5px double #b388ff;
+    }
+
+    .modal-body p {
+      padding-top: 8px;
+    }
+
+    .modal-body input {
+      width: 300px;
+      height: 40px;
+      border: 1px solid black;
+      border-radius: 40px;
+
+      font-size: 16px;
+      padding: 20px;
+    }
+
+    .modal-body button {
+      background-color: white;
+      border-radius: 20px;
+    }
+
+    .modal-body button:hover {
+      background-color: rgb(190, 190, 190);
+    }
+
+    .pssword input {
+      width: 100px;
+    }
+
+    .pssword p {
+      width: 200px;
+    }
+
+    .text3 {
+      width: 800px;
+      height: 100px;
+      padding-left: 380px;
+      padding-top: 40px;
+      font-size: 35px;
+      font-family: 나눔고딕;
+    }
+
+    .b1 {
+      width: 1440px;
+      height: 380px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 80px;
+
+
+    }
+
+    .boxa {
+      width: 1980px;
+      height: 380px;
+      background-color: black;
+    }
+
+
+    .b3 img {
+      transition: all 0.2s linear;
+
+    }
+
+
+    .b3 img:hover {
+      transform: scale(1.02);
+      overflow: hidden;
+    }
+
+    .fpdldkdnt {
+      width: 1920px;
+      height: 950px;
+      text-align: center;
+      padding-top: 170px;
+    }
+
+    .text5 {
+      width: 416px;
+      height: 48px;
+      border-radius: 100px;
+      padding: 12px;
+    }
+
+    .text6 {
+      padding-top: 20px;
+    }
+
+    .boxs0 {
+      display: flex;
+      padding-left: 800px;
+      font-size: 12px;
+      text-align: center;
+      font-weight: 500;
+      margin-top: 12px;
+    }
+
+    .boxs1 {
+      width: 130px;
+      height: 30px;
+      border: 0.5px solid black;
+      border-radius: 100px;
+      text-align: center;
+    }
+
+    .boxs1:hover {
+      transition: 0.5s;
+      background-color: rgb(189, 189, 189);
+    }
+
+    .boxs2 {
+      width: 130px;
+      height: 30px;
+      border: 0.5px solid black;
+      border-radius: 100px;
+      text-align: center;
+    }
+
+    .boxs2:hover {
+      transition: 0.5s;
+      background-color: rgb(189, 189, 189);
+    }
+
+    .brrr {
+      width: 1450px;
+      height: 450px;
+      border: 1px solid black;
+      margin: 0 auto;
+    }
+
+
+    .brrr ul {
+      text-decoration: none;
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 px-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark cs-bg-black">
+
+          <a class="navbar-brand" href="#"><img src="https://semiconductor.samsung.com/etc.clientlibs/semiconductor/designs/global/common/resources/img/icon/global-samsung-logo.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">제품 <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">파운드리 <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">솔루션 <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#"> 뉴스&이벤트 <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+          <!-- Button trigger modal -->
+          <button style="background-color: black; border: 1px solid black;" type="button" class="btn btn-primary"
+            data-toggle="modal" data-target="#exampleModal">
+            로그인
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">LOG IN</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>아이디</p><input style="padding: 20px;" type="email"> <br>
+                  <p>비밀번호</p><input type="password">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+                  <button type="button" class="btn btn-primary">LOG IN</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Button trigger modal -->
+          <button style="border: 1px solid black; background-color: black;" type="button" class="btn btn-primary"
+            data-toggle="modal" data-target="#staticBackdrop">
+            회원가입
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">회원가입</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>이메일</p><input type="email">
+
+                  <p>비밀번호</p><input type="password">
+
+                  <p>비밀번호 확인</p><input type="password">
+
+                  <p>전화번호 인증</p><input type="tel"> <button>인증</button>
+                  <div class="pssword">
+                    <p>인증번호 확인</p><input type="text">
+                    <button>확인</button>
+                  </div>
+                </div>
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+                  <button type="button" class="btn btn-primary">회원가입</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    </nav>
+  </div>
+  </div>
+  </div>
+
+
+
+
+
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="https://image.semiconductor.samsung.com/image/samsung/p6/semiconductor/newhome/kv/exynos-w930-pc.png?$ORIGIN_PNG$"
+          class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://image.semiconductor.samsung.com/image/samsung/p6/semiconductor/newhome/kv/foundry-forum-2023-pc.png?$ORIGIN_PNG$"
+          class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://image.semiconductor.samsung.com/image/samsung/p6/semiconductor/newhome/kv/pc-ssd-pc.png?$ORIGIN_PNG$"
+          class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleFade" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </button>
+  </div>
+
+  <hr>
+
+  <div class="box">
+    <div class="card" style="width: 18rem;">
+      <img
+        src="https://image.semiconductor.samsung.com/image/samsung/p6/semiconductor/newhome/banner/231011/home_banner_whatsnew_02-pc@2x.png?$ORIGIN_PNG$"
+        class="card-img-top" alt="...">
+      <div class="card-body">
+        <h9 class="card-title">뉴스</h9>
+        <p class="card-text">삼성전자, 미국 실리콘밸리서 '삼성 시스템 LSI 테크 데이 2023' 개최</p>
+        <a href="#" class="btn btn-primary stretched-link">바로가기</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img
+        src="https://image.semiconductor.samsung.com/image/samsung/p6/semiconductor/newhome/banner/231006/home_banner_whatsnew_02-pc@2x.png?$ORIGIN_PNG$"
+        class="card-img-top" alt="...">
+      <div class="card-body">
+        <h9 class="card-title">뉴스</h9>
+        <p class="card-text">삼성전자, 초고속 포터블 SSD ‘T9’ 출시</p>
+        <a href="#" class="btn btn-primary stretched-link">바로가기</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img
+        src="https://image.semiconductor.samsung.com/image/samsung/p6/semiconductor/newhome/banner/231011/home_banner_whatsnew_01-pc@2x.png?$ORIGIN_PNG$"
+        class="card-img-top" alt="...">
+      <div class="card-body">
+        <h9 class="card-title">테크 블로그</h9>
+        <p class="card-text">데이터 센터의 성능을 새로운 차원으로 끌어올리는 삼성 텔레메트리 서비스를 소개합니다</p>
+        <a href="#" class="btn btn-primary stretched-link">바로가기</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img
+        src="https://image.semiconductor.samsung.com/image/samsung/p6/semiconductor/newhome/banner/231006/home_banner_whatsnew_03-pc@2x.png?$ORIGIN_PNG$"
+        class="card-img-top" alt="...">
+      <div class="card-body">
+        <h9 class="card-title">뉴스</h9>
+        <p class="card-text">삼성전자, 업계 최초 LPCAMM 개발</p>
+        <a href="#" class="btn btn-primary stretched-link">바로가기</a>
+      </div>
+    </div>
+  </div>
+
+  <h1 class="text3">함께하는 미래</h1>
+
+  <div class="b3">
+    <img
+      src="https://image.semiconductor.samsung.com/image/samsung/p6/semiconductor/newhome/banner/home_banner_bett-to_01-pc@2x.png?$ORIGIN_PNG$"
+      class="img-fluid" alt="...">
+
+    <div class="img1">
+      <img
+        src="https://image.semiconductor.samsung.com/image/samsung/p6/semiconductor/newhome/banner/home_banner_bett-to_02-pc@2x.png?$ORIGIN_PNG$"
+        class="img-fluid1" alt="...">
+      <img
+        src="https://image.semiconductor.samsung.com/image/samsung/p6/semiconductor/newhome/banner/home_banner_bett-to_03-pc@2x.png?$ORIGIN_PNG$"
+        class="img-fluid2" alt="...">
+    </div>
+  </div>
+  <div class="b2">
+    <div class="boxa">
+      <img class="b1" src="/미래유망 포트폴리오/새 폴더/배너.jpg" alt="">
+    </div>
+
+  </div>
+  <div class="fpdldkdnt">
+    <h1>어떤것을 찾고계신가요?</h1>
+    <div class="text6">
+      <input class="text5" type="text">
+    </div>
+    <div class="boxs0">
+      <div class="boxs1">
+        <p>삼성 파운드리 포털2023</p>
+      </div>
+      <div class="boxs2">
+        <p>IAA모빌리티2023</p>
+      </div>
+
+    </div>
+    <div class="brrr">
+      <ul>
+        <li><a href="#">DRAM</a></li>
+        <li><a href="#">SSD</a></li>
+        <li><a href="#">eStorage</a></li>
+        <li><a href="#">MCP</a></li>
+        <li><a href="#">오토모티브 메모리</a></li>
+        <li><a href="#">Consumer Storage</a></li>
+        <li><a href="#">프로세서</a></li>
+        <li><a href="#">이미지센서</a></li>
+        <li><a href="#">디스플레이 IC</a></li>
+        <li><a href="#">보안 솔루션</a></li>
+        <li><a href="#">전력관리 IC</a></li>
+        <li><a href="#">LED</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <script>
+    var lastScrollTop = 0,
+      delta = 100;
+
+    $(window).scroll(function (event) {
+      var st = $(this).scrollTop();
+
+      if (Math.abs(lastScrollTop - st) <= delta) return;
+
+      if (st > lastScrollTop && lastScrollTop > 0) {
+        $(".txt").text("⇩");
+      } else {
+        $(".txt").text("⇧");
+      }
+
+      lastScrollTop = st;
+    });
+  </script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
